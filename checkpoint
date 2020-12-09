@@ -1,0 +1,2 @@
+model_checkpoint_path: "E:\\Users\\luofeng\\Documents\\GitHub\\Chat-Web-App\\website\\model.tflearn"
+all_model_checkpoint_paths: "E:\\Users\\luofeng\\Documents\\GitHub\\Chat-Web-App\\website\\model.tflearn"
