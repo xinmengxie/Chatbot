@@ -12,7 +12,7 @@ import nltk
 from nltk.stem.lancaster import LancasterStemmer
 
 stemmer = LancasterStemmer()
-
+import os
 import numpy
 import tflearn
 import tensorflow
@@ -22,6 +22,9 @@ import pickle
 
 with open("intents.json") as file:
     data = json.load(file)
+
+if os.path.exists("messages.db"):
+    os.remove("messages.db")
 
 try:
     with open("data.pickle", "rb") as f:
